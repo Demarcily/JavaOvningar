@@ -1,3 +1,5 @@
+package Kap3;
+
 import javax.swing.*;
 
 public class Z33 {
