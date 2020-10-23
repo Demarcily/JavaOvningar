@@ -1,6 +1,7 @@
 package Kap1;
 
 import javax.swing.*;
+import java.util.Calendar;
 
 public class Z19 {
     public static void main (String[] arg) {
@@ -9,5 +10,6 @@ public class Z19 {
         String Telefonnummer ="*Insert Number*";
         JOptionPane.showMessageDialog(null, Name + "\n" + Address + "\n" + Telefonnummer);
 
+        JOptionPane.showMessageDialog(null, "Datum Tid" + "\n" + Calendar.getInstance().getTime().toString());
     }
 }
